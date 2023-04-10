@@ -29,3 +29,4 @@ windows_targets::link!("kernel32.dll" "system" fn CloseHandle(hObject: HANDLE) -
 windows_targets::link!("kernel32.dll" "system" fn GetModuleHandleA(lpModuleName: *const u8) -> HINSTANCE);
 windows_targets::link!("kernel32.dll" "system" fn GetProcAddress(hModule: HINSTANCE, lpProcName: *const u8) -> FARPROC);
 windows_targets::link!("kernel32.dll" "system" fn Sleep(dwMilliseconds: u32) -> ());
+
